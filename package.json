@@ -1,0 +1,32 @@
+{
+    "name": "keccak256-example",
+    "version": "1.0.0",
+    "description": "Exemplo simples de uso do KECCAK-256 com Node.js",
+    "main": "index.js",
+    "bin": {
+        "keccak256": "cli.js"
+    },
+    "scripts": {
+        "start": "node cli.js"
+    },
+    "keywords": [
+        "keccak256",
+        "hash",
+        "crypto",
+        "nodejs"
+    ],
+    "author": "Seu Nome",
+    "license": "MIT",
+    "dependencies": {
+        "js-sha3": "^0.9.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beto-rocha-blockchain/keccak256.git"
+    },
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/beto-rocha-blockchain/keccak256/issues"
+    },
+    "homepage": "https://github.com/beto-rocha-blockchain/keccak256#readme"
+}
